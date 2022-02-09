@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB02542A186A0CC5000E12D8 /* nombre.png in Resources */ = {isa = PBXBuildFile; fileRef = FB025428186A0CC5000E12D8 /* nombre.png */; };
+		FB3FE6B31795A9BF00D6F38E /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3FE6B21795A9BF00D6F38E /* libGoogleAdMobAds.a */; };
+		FB4266891792F52500DB549C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4266881792F52500DB549C /* SystemConfiguration.framework */; };
+		FB42668B1792F54200DB549C /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB42668A1792F54200DB549C /* libGoogleAnalytics.a */; };
+		FB42668F1793047C00DB549C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB42668E1793047C00DB549C /* AudioToolbox.framework */; };
+		FB4266911793048500DB549C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4266901793048500DB549C /* MessageUI.framework */; };
+		FB4266931793049900DB549C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4266921793049900DB549C /* AdSupport.framework */; };
+		FB560B9518427B4000972E8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB560B9418427B4000972E8C /* AVFoundation.framework */; };
+		FB560B9718427B4D00972E8C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB560B9618427B4D00972E8C /* StoreKit.framework */; };
+		FB87312C17A3EAAF001730CB /* GameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FB87312B17A3EAAF001730CB /* GameKitHelper.m */; };
+		FB97501F184BABB9009DA198 /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FB975018184BABB9009DA198 /* BButton.m */; };
+		FB975020184BABB9009DA198 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = FB97501A184BABB9009DA198 /* NSString+FontAwesome.m */; };
+		FB975021184BABB9009DA198 /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FB97501C184BABB9009DA198 /* UIColor+BButton.m */; };
+		FB975022184BABB9009DA198 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB97501E184BABB9009DA198 /* FontAwesome.ttf */; };
+		FB9785851871E425008B7231 /* nombre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9785841871E425008B7231 /* nombre@2x.png */; };
+		FBF8E10A1792ABC1001EB2F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF8E1091792ABC1001EB2F3 /* UIKit.framework */; };
+		FBF8E10C1792ABC1001EB2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF8E10B1792ABC1001EB2F3 /* Foundation.framework */; };
+		FBF8E10E1792ABC1001EB2F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF8E10D1792ABC1001EB2F3 /* CoreGraphics.framework */; };
+		FBF8E1141792ABC1001EB2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF8E1121792ABC1001EB2F3 /* InfoPlist.strings */; };
+		FBF8E1161792ABC1001EB2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1151792ABC1001EB2F3 /* main.m */; };
+		FBF8E11A1792ABC1001EB2F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1191792ABC1001EB2F3 /* AppDelegate.m */; };
+		FBF8E11C1792ABC1001EB2F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF8E11B1792ABC1001EB2F3 /* Default.png */; };
+		FBF8E11E1792ABC1001EB2F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF8E11D1792ABC1001EB2F3 /* Default@2x.png */; };
+		FBF8E1201792ABC1001EB2F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF8E11F1792ABC1001EB2F3 /* Default-568h@2x.png */; };
+		FBF8E1231792ABC1001EB2F3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF8E1211792ABC1001EB2F3 /* MainStoryboard.storyboard */; };
+		FBF8E1381792ACAE001EB2F3 /* Operacion.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E12F1792ACAE001EB2F3 /* Operacion.m */; };
+		FBF8E1391792ACAE001EB2F3 /* OperacionDividir.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1311792ACAE001EB2F3 /* OperacionDividir.m */; };
+		FBF8E13A1792ACAE001EB2F3 /* OperacionMultiplicar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1331792ACAE001EB2F3 /* OperacionMultiplicar.m */; };
+		FBF8E13B1792ACAE001EB2F3 /* OperacionRestar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1351792ACAE001EB2F3 /* OperacionRestar.m */; };
+		FBF8E13C1792ACAE001EB2F3 /* OperacionSumar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1371792ACAE001EB2F3 /* OperacionSumar.m */; };
+		FBF8E1451792ACD7001EB2F3 /* ElMinutoJuego.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E13E1792ACD7001EB2F3 /* ElMinutoJuego.m */; };
+		FBF8E1461792ACD7001EB2F3 /* Juego.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1401792ACD7001EB2F3 /* Juego.m */; };
+		FBF8E1471792ACD7001EB2F3 /* LasVeinteJuego.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1421792ACD7001EB2F3 /* LasVeinteJuego.m */; };
+		FBF8E1481792ACD7001EB2F3 /* SieteEnTreintaJuego.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1441792ACD7001EB2F3 /* SieteEnTreintaJuego.m */; };
+		FBF8E1541792AD13001EB2F3 /* GanadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E14B1792AD13001EB2F3 /* GanadorViewController.m */; };
+		FBF8E1551792AD13001EB2F3 /* JuegoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E14D1792AD13001EB2F3 /* JuegoViewController.m */; };
+		FBF8E1581792AD13001EB2F3 /* SeleccionarJuegoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8E1531792AD13001EB2F3 /* SeleccionarJuegoViewController.m */; };
+		FBF8E1641792ADE5001EB2F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF8E1601792ADE5001EB2F3 /* Localizable.strings */; };
+		FBF8E1671792AE0D001EB2F3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF8E1661792AE0D001EB2F3 /* GameKit.framework */; };
+		FBF8E1691792AE78001EB2F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF8E1681792AE78001EB2F3 /* CoreData.framework */; };
+		FBF8E16B1792AE8D001EB2F3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF8E16A1792AE8D001EB2F3 /* Social.framework */; };
+		FBFC561E186B5CBF0053933C /* icono-114@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFC561B186B5CBF0053933C /* icono-114@2x.png */; };
+		FBFC561F186B5CBF0053933C /* icono.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFC561C186B5CBF0053933C /* icono.png */; };
+		FBFC5620186B5CBF0053933C /* icono@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFC561D186B5CBF0053933C /* icono@2x.png */; };
+		FBFC5625186B5E640053933C /* icono-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFC5622186B5E640053933C /* icono-Small.png */; };
+		FBFC5626186B5E640053933C /* icono-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFC5623186B5E640053933C /* icono-Small@2x.png */; };
+		FBFC5628186B61C80053933C /* icono-Small-80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFC5627186B61C80053933C /* icono-Small-80@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB025428186A0CC5000E12D8 /* nombre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nombre.png; path = "Math Defiance/resources/nombre.png"; sourceTree = "<group>"; };
+		FB3FE6B21795A9BF00D6F38E /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = "Math Defiance/google-admob/libGoogleAdMobAds.a"; sourceTree = "<group>"; };
+		FB4266881792F52500DB549C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB42668A1792F54200DB549C /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = "Math Defiance/google-analytics/libGoogleAnalytics.a"; sourceTree = "<group>"; };
+		FB42668E1793047C00DB549C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FB4266901793048500DB549C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FB4266921793049900DB549C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FB560B9418427B4000972E8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FB560B9618427B4D00972E8C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FB7776B1179BE73F0040FC21 /* Constantes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constantes.h; sourceTree = "<group>"; };
+		FB87312A17A3EAAF001730CB /* GameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameKitHelper.h; path = "Math Defiance/GameKitHelper.h"; sourceTree = "<group>"; };
+		FB87312B17A3EAAF001730CB /* GameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameKitHelper.m; path = "Math Defiance/GameKitHelper.m"; sourceTree = "<group>"; };
+		FB975017184BABB9009DA198 /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		FB975018184BABB9009DA198 /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		FB975019184BABB9009DA198 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		FB97501A184BABB9009DA198 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		FB97501B184BABB9009DA198 /* UIColor+BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BButton.h"; sourceTree = "<group>"; };
+		FB97501C184BABB9009DA198 /* UIColor+BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BButton.m"; sourceTree = "<group>"; };
+		FB97501E184BABB9009DA198 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		FB9785821871E2BD008B7231 /* Maths Games-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Maths Games-Info.plist"; sourceTree = "<group>"; };
+		FB9785841871E425008B7231 /* nombre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nombre@2x.png"; path = "Math Defiance/resources/nombre@2x.png"; sourceTree = "<group>"; };
+		FBF8E1061792ABC1001EB2F3 /* Maths Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maths Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF8E1091792ABC1001EB2F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBF8E10B1792ABC1001EB2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBF8E10D1792ABC1001EB2F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBF8E1131792ABC1001EB2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF8E1151792ABC1001EB2F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBF8E1171792ABC1001EB2F3 /* Maths Games-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maths Games-Prefix.pch"; sourceTree = "<group>"; };
+		FBF8E1181792ABC1001EB2F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBF8E1191792ABC1001EB2F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBF8E11B1792ABC1001EB2F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Math Defiance/Default.png"; sourceTree = "<group>"; };
+		FBF8E11D1792ABC1001EB2F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Math Defiance/Default@2x.png"; sourceTree = "<group>"; };
+		FBF8E11F1792ABC1001EB2F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Math Defiance/Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBF8E1221792ABC1001EB2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FBF8E12E1792ACAE001EB2F3 /* Operacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operacion.h; path = "Math Defiance/Operacion.h"; sourceTree = "<group>"; };
+		FBF8E12F1792ACAE001EB2F3 /* Operacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Operacion.m; path = "Math Defiance/Operacion.m"; sourceTree = "<group>"; };
+		FBF8E1301792ACAE001EB2F3 /* OperacionDividir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperacionDividir.h; path = "Math Defiance/OperacionDividir.h"; sourceTree = "<group>"; };
+		FBF8E1311792ACAE001EB2F3 /* OperacionDividir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperacionDividir.m; path = "Math Defiance/OperacionDividir.m"; sourceTree = "<group>"; };
+		FBF8E1321792ACAE001EB2F3 /* OperacionMultiplicar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperacionMultiplicar.h; path = "Math Defiance/OperacionMultiplicar.h"; sourceTree = "<group>"; };
+		FBF8E1331792ACAE001EB2F3 /* OperacionMultiplicar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperacionMultiplicar.m; path = "Math Defiance/OperacionMultiplicar.m"; sourceTree = "<group>"; };
+		FBF8E1341792ACAE001EB2F3 /* OperacionRestar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperacionRestar.h; path = "Math Defiance/OperacionRestar.h"; sourceTree = "<group>"; };
+		FBF8E1351792ACAE001EB2F3 /* OperacionRestar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperacionRestar.m; path = "Math Defiance/OperacionRestar.m"; sourceTree = "<group>"; };
+		FBF8E1361792ACAE001EB2F3 /* OperacionSumar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperacionSumar.h; path = "Math Defiance/OperacionSumar.h"; sourceTree = "<group>"; };
+		FBF8E1371792ACAE001EB2F3 /* OperacionSumar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperacionSumar.m; path = "Math Defiance/OperacionSumar.m"; sourceTree = "<group>"; };
+		FBF8E13D1792ACD7001EB2F3 /* ElMinutoJuego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ElMinutoJuego.h; path = "Math Defiance/ElMinutoJuego.h"; sourceTree = "<group>"; };
+		FBF8E13E1792ACD7001EB2F3 /* ElMinutoJuego.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ElMinutoJuego.m; path = "Math Defiance/ElMinutoJuego.m"; sourceTree = "<group>"; };
+		FBF8E13F1792ACD7001EB2F3 /* Juego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Juego.h; path = "Math Defiance/Juego.h"; sourceTree = "<group>"; };
+		FBF8E1401792ACD7001EB2F3 /* Juego.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Juego.m; path = "Math Defiance/Juego.m"; sourceTree = "<group>"; };
+		FBF8E1411792ACD7001EB2F3 /* LasVeinteJuego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LasVeinteJuego.h; path = "Math Defiance/LasVeinteJuego.h"; sourceTree = "<group>"; };
+		FBF8E1421792ACD7001EB2F3 /* LasVeinteJuego.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LasVeinteJuego.m; path = "Math Defiance/LasVeinteJuego.m"; sourceTree = "<group>"; };
+		FBF8E1431792ACD7001EB2F3 /* SieteEnTreintaJuego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SieteEnTreintaJuego.h; path = "Math Defiance/SieteEnTreintaJuego.h"; sourceTree = "<group>"; };
+		FBF8E1441792ACD7001EB2F3 /* SieteEnTreintaJuego.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SieteEnTreintaJuego.m; path = "Math Defiance/SieteEnTreintaJuego.m"; sourceTree = "<group>"; };
+		FBF8E14A1792AD13001EB2F3 /* GanadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GanadorViewController.h; path = "Math Defiance/GanadorViewController.h"; sourceTree = "<group>"; };
+		FBF8E14B1792AD13001EB2F3 /* GanadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GanadorViewController.m; path = "Math Defiance/GanadorViewController.m"; sourceTree = "<group>"; };
+		FBF8E14C1792AD13001EB2F3 /* JuegoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuegoViewController.h; path = "Math Defiance/JuegoViewController.h"; sourceTree = "<group>"; };
+		FBF8E14D1792AD13001EB2F3 /* JuegoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuegoViewController.m; path = "Math Defiance/JuegoViewController.m"; sourceTree = "<group>"; };
+		FBF8E1521792AD13001EB2F3 /* SeleccionarJuegoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeleccionarJuegoViewController.h; path = "Math Defiance/SeleccionarJuegoViewController.h"; sourceTree = "<group>"; };
+		FBF8E1531792AD13001EB2F3 /* SeleccionarJuegoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeleccionarJuegoViewController.m; path = "Math Defiance/SeleccionarJuegoViewController.m"; sourceTree = "<group>"; };
+		FBF8E1611792ADE5001EB2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBF8E1621792ADE5001EB2F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF8E1631792ADE5001EB2F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBF8E1661792AE0D001EB2F3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		FBF8E1681792AE78001EB2F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBF8E16A1792AE8D001EB2F3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FBFC561B186B5CBF0053933C /* icono-114@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-114@2x.png"; path = "Math Defiance/resources/icono-114@2x.png"; sourceTree = "<group>"; };
+		FBFC561C186B5CBF0053933C /* icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono.png; path = "Math Defiance/resources/icono.png"; sourceTree = "<group>"; };
+		FBFC561D186B5CBF0053933C /* icono@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono@2x.png"; path = "Math Defiance/resources/icono@2x.png"; sourceTree = "<group>"; };
+		FBFC5622186B5E640053933C /* icono-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-Small.png"; path = "Math Defiance/resources/icono-Small.png"; sourceTree = "<group>"; };
+		FBFC5623186B5E640053933C /* icono-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-Small@2x.png"; path = "Math Defiance/resources/icono-Small@2x.png"; sourceTree = "<group>"; };
+		FBFC5627186B61C80053933C /* icono-Small-80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-Small-80@2x.png"; path = "Math Defiance/resources/icono-Small-80@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF8E1031792ABC1001EB2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB560B9718427B4D00972E8C /* StoreKit.framework in Frameworks */,
+				FB560B9518427B4000972E8C /* AVFoundation.framework in Frameworks */,
+				FB3FE6B31795A9BF00D6F38E /* libGoogleAdMobAds.a in Frameworks */,
+				FB4266931793049900DB549C /* AdSupport.framework in Frameworks */,
+				FB4266911793048500DB549C /* MessageUI.framework in Frameworks */,
+				FB42668F1793047C00DB549C /* AudioToolbox.framework in Frameworks */,
+				FB42668B1792F54200DB549C /* libGoogleAnalytics.a in Frameworks */,
+				FB4266891792F52500DB549C /* SystemConfiguration.framework in Frameworks */,
+				FBF8E16B1792AE8D001EB2F3 /* Social.framework in Frameworks */,
+				FBF8E1691792AE78001EB2F3 /* CoreData.framework in Frameworks */,
+				FBF8E1671792AE0D001EB2F3 /* GameKit.framework in Frameworks */,
+				FBF8E10A1792ABC1001EB2F3 /* UIKit.framework in Frameworks */,
+				FBF8E10C1792ABC1001EB2F3 /* Foundation.framework in Frameworks */,
+				FBF8E10E1792ABC1001EB2F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB87312917A3EA8A001730CB /* Game Kit */ = {
+			isa = PBXGroup;
+			children = (
+				FB87312A17A3EAAF001730CB /* GameKitHelper.h */,
+				FB87312B17A3EAAF001730CB /* GameKitHelper.m */,
+			);
+			name = "Game Kit";
+			sourceTree = "<group>";
+		};
+		FB975015184BABB9009DA198 /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				FB975016184BABB9009DA198 /* Classes */,
+				FB97501D184BABB9009DA198 /* resources */,
+			);
+			name = BButton;
+			path = "Math Defiance/BButton";
+			sourceTree = "<group>";
+		};
+		FB975016184BABB9009DA198 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB975017184BABB9009DA198 /* BButton.h */,
+				FB975018184BABB9009DA198 /* BButton.m */,
+				FB975019184BABB9009DA198 /* NSString+FontAwesome.h */,
+				FB97501A184BABB9009DA198 /* NSString+FontAwesome.m */,
+				FB97501B184BABB9009DA198 /* UIColor+BButton.h */,
+				FB97501C184BABB9009DA198 /* UIColor+BButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB97501D184BABB9009DA198 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB97501E184BABB9009DA198 /* FontAwesome.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FBF8E0FD1792ABC1001EB2F3 = {
+			isa = PBXGroup;
+			children = (
+				FB975015184BABB9009DA198 /* BButton */,
+				FB87312917A3EA8A001730CB /* Game Kit */,
+				FBF8E10F1792ABC1001EB2F3 /* Math Defiance */,
+				FBF8E12C1792AC86001EB2F3 /* Juegos */,
+				FBF8E1491792ACFA001EB2F3 /* Controladores */,
+				FBF8E15B1792AD49001EB2F3 /* Vista */,
+				FBF8E15F1792ADA8001EB2F3 /* Recursos */,
+				FBF8E1081792ABC1001EB2F3 /* Frameworks */,
+				FBF8E1071792ABC1001EB2F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF8E1071792ABC1001EB2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E1061792ABC1001EB2F3 /* Maths Games.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF8E1081792ABC1001EB2F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB560B9618427B4D00972E8C /* StoreKit.framework */,
+				FB560B9418427B4000972E8C /* AVFoundation.framework */,
+				FB4266921793049900DB549C /* AdSupport.framework */,
+				FB42668E1793047C00DB549C /* AudioToolbox.framework */,
+				FBF8E1681792AE78001EB2F3 /* CoreData.framework */,
+				FBF8E10D1792ABC1001EB2F3 /* CoreGraphics.framework */,
+				FBF8E10B1792ABC1001EB2F3 /* Foundation.framework */,
+				FBF8E1661792AE0D001EB2F3 /* GameKit.framework */,
+				FB3FE6B21795A9BF00D6F38E /* libGoogleAdMobAds.a */,
+				FB42668A1792F54200DB549C /* libGoogleAnalytics.a */,
+				FB4266901793048500DB549C /* MessageUI.framework */,
+				FBF8E16A1792AE8D001EB2F3 /* Social.framework */,
+				FB4266881792F52500DB549C /* SystemConfiguration.framework */,
+				FBF8E1091792ABC1001EB2F3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF8E10F1792ABC1001EB2F3 /* Math Defiance */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E1181792ABC1001EB2F3 /* AppDelegate.h */,
+				FBF8E1191792ABC1001EB2F3 /* AppDelegate.m */,
+				FB7776B1179BE73F0040FC21 /* Constantes.h */,
+				FBF8E1101792ABC1001EB2F3 /* Supporting Files */,
+			);
+			path = "Math Defiance";
+			sourceTree = "<group>";
+		};
+		FBF8E1101792ABC1001EB2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E1121792ABC1001EB2F3 /* InfoPlist.strings */,
+				FBF8E1601792ADE5001EB2F3 /* Localizable.strings */,
+				FBF8E1151792ABC1001EB2F3 /* main.m */,
+				FB9785821871E2BD008B7231 /* Maths Games-Info.plist */,
+				FBF8E1171792ABC1001EB2F3 /* Maths Games-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBF8E12C1792AC86001EB2F3 /* Juegos */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E12D1792AC95001EB2F3 /* Operaciones */,
+				FBF8E13D1792ACD7001EB2F3 /* ElMinutoJuego.h */,
+				FBF8E13E1792ACD7001EB2F3 /* ElMinutoJuego.m */,
+				FBF8E13F1792ACD7001EB2F3 /* Juego.h */,
+				FBF8E1401792ACD7001EB2F3 /* Juego.m */,
+				FBF8E1411792ACD7001EB2F3 /* LasVeinteJuego.h */,
+				FBF8E1421792ACD7001EB2F3 /* LasVeinteJuego.m */,
+				FBF8E1431792ACD7001EB2F3 /* SieteEnTreintaJuego.h */,
+				FBF8E1441792ACD7001EB2F3 /* SieteEnTreintaJuego.m */,
+			);
+			name = Juegos;
+			sourceTree = "<group>";
+		};
+		FBF8E12D1792AC95001EB2F3 /* Operaciones */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E12E1792ACAE001EB2F3 /* Operacion.h */,
+				FBF8E12F1792ACAE001EB2F3 /* Operacion.m */,
+				FBF8E1301792ACAE001EB2F3 /* OperacionDividir.h */,
+				FBF8E1311792ACAE001EB2F3 /* OperacionDividir.m */,
+				FBF8E1321792ACAE001EB2F3 /* OperacionMultiplicar.h */,
+				FBF8E1331792ACAE001EB2F3 /* OperacionMultiplicar.m */,
+				FBF8E1341792ACAE001EB2F3 /* OperacionRestar.h */,
+				FBF8E1351792ACAE001EB2F3 /* OperacionRestar.m */,
+				FBF8E1361792ACAE001EB2F3 /* OperacionSumar.h */,
+				FBF8E1371792ACAE001EB2F3 /* OperacionSumar.m */,
+			);
+			name = Operaciones;
+			sourceTree = "<group>";
+		};
+		FBF8E1491792ACFA001EB2F3 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E14A1792AD13001EB2F3 /* GanadorViewController.h */,
+				FBF8E14B1792AD13001EB2F3 /* GanadorViewController.m */,
+				FBF8E14C1792AD13001EB2F3 /* JuegoViewController.h */,
+				FBF8E14D1792AD13001EB2F3 /* JuegoViewController.m */,
+				FBF8E1521792AD13001EB2F3 /* SeleccionarJuegoViewController.h */,
+				FBF8E1531792AD13001EB2F3 /* SeleccionarJuegoViewController.m */,
+			);
+			name = Controladores;
+			sourceTree = "<group>";
+		};
+		FBF8E15B1792AD49001EB2F3 /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E1211792ABC1001EB2F3 /* MainStoryboard.storyboard */,
+			);
+			name = Vista;
+			sourceTree = "<group>";
+		};
+		FBF8E15F1792ADA8001EB2F3 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8E11F1792ABC1001EB2F3 /* Default-568h@2x.png */,
+				FBF8E11B1792ABC1001EB2F3 /* Default.png */,
+				FBF8E11D1792ABC1001EB2F3 /* Default@2x.png */,
+				FBFC561B186B5CBF0053933C /* icono-114@2x.png */,
+				FBFC5627186B61C80053933C /* icono-Small-80@2x.png */,
+				FBFC5622186B5E640053933C /* icono-Small.png */,
+				FBFC5623186B5E640053933C /* icono-Small@2x.png */,
+				FBFC561C186B5CBF0053933C /* icono.png */,
+				FBFC561D186B5CBF0053933C /* icono@2x.png */,
+				FB025428186A0CC5000E12D8 /* nombre.png */,
+				FB9785841871E425008B7231 /* nombre@2x.png */,
+			);
+			name = Recursos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF8E1051792ABC1001EB2F3 /* Maths Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF8E1291792ABC1001EB2F3 /* Build configuration list for PBXNativeTarget "Maths Games" */;
+			buildPhases = (
+				FBF8E1021792ABC1001EB2F3 /* Sources */,
+				FBF8E1031792ABC1001EB2F3 /* Frameworks */,
+				FBF8E1041792ABC1001EB2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maths Games";
+			productName = "Math Defiance";
+			productReference = FBF8E1061792ABC1001EB2F3 /* Maths Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF8E0FE1792ABC1001EB2F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tmoreno;
+				TargetAttributes = {
+					FBF8E1051792ABC1001EB2F3 = {
+						DevelopmentTeam = 36EUQ9WZ69;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FBF8E1011792ABC1001EB2F3 /* Build configuration list for PBXProject "Maths Games" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = FBF8E0FD1792ABC1001EB2F3;
+			productRefGroup = FBF8E1071792ABC1001EB2F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF8E1051792ABC1001EB2F3 /* Maths Games */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF8E1041792ABC1001EB2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF8E1141792ABC1001EB2F3 /* InfoPlist.strings in Resources */,
+				FB02542A186A0CC5000E12D8 /* nombre.png in Resources */,
+				FB975022184BABB9009DA198 /* FontAwesome.ttf in Resources */,
+				FBF8E11C1792ABC1001EB2F3 /* Default.png in Resources */,
+				FBFC5628186B61C80053933C /* icono-Small-80@2x.png in Resources */,
+				FBF8E11E1792ABC1001EB2F3 /* Default@2x.png in Resources */,
+				FBFC561E186B5CBF0053933C /* icono-114@2x.png in Resources */,
+				FBFC5620186B5CBF0053933C /* icono@2x.png in Resources */,
+				FBF8E1201792ABC1001EB2F3 /* Default-568h@2x.png in Resources */,
+				FB9785851871E425008B7231 /* nombre@2x.png in Resources */,
+				FBFC5625186B5E640053933C /* icono-Small.png in Resources */,
+				FBFC561F186B5CBF0053933C /* icono.png in Resources */,
+				FBF8E1231792ABC1001EB2F3 /* MainStoryboard.storyboard in Resources */,
+				FBFC5626186B5E640053933C /* icono-Small@2x.png in Resources */,
+				FBF8E1641792ADE5001EB2F3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF8E1021792ABC1001EB2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB975021184BABB9009DA198 /* UIColor+BButton.m in Sources */,
+				FBF8E1161792ABC1001EB2F3 /* main.m in Sources */,
+				FBF8E11A1792ABC1001EB2F3 /* AppDelegate.m in Sources */,
+				FB97501F184BABB9009DA198 /* BButton.m in Sources */,
+				FBF8E1381792ACAE001EB2F3 /* Operacion.m in Sources */,
+				FBF8E1391792ACAE001EB2F3 /* OperacionDividir.m in Sources */,
+				FBF8E13A1792ACAE001EB2F3 /* OperacionMultiplicar.m in Sources */,
+				FBF8E13B1792ACAE001EB2F3 /* OperacionRestar.m in Sources */,
+				FBF8E13C1792ACAE001EB2F3 /* OperacionSumar.m in Sources */,
+				FBF8E1451792ACD7001EB2F3 /* ElMinutoJuego.m in Sources */,
+				FBF8E1461792ACD7001EB2F3 /* Juego.m in Sources */,
+				FBF8E1471792ACD7001EB2F3 /* LasVeinteJuego.m in Sources */,
+				FBF8E1481792ACD7001EB2F3 /* SieteEnTreintaJuego.m in Sources */,
+				FBF8E1541792AD13001EB2F3 /* GanadorViewController.m in Sources */,
+				FBF8E1551792AD13001EB2F3 /* JuegoViewController.m in Sources */,
+				FB975020184BABB9009DA198 /* NSString+FontAwesome.m in Sources */,
+				FBF8E1581792AD13001EB2F3 /* SeleccionarJuegoViewController.m in Sources */,
+				FB87312C17A3EAAF001730CB /* GameKitHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBF8E1121792ABC1001EB2F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF8E1131792ABC1001EB2F3 /* en */,
+				FBF8E1621792ADE5001EB2F3 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBF8E1211792ABC1001EB2F3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF8E1221792ABC1001EB2F3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = "Math Defiance";
+			sourceTree = "<group>";
+		};
+		FBF8E1601792ADE5001EB2F3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF8E1611792ADE5001EB2F3 /* en */,
+				FBF8E1631792ADE5001EB2F3 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF8E1271792ABC1001EB2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBF8E1281792ABC1001EB2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF8E12A1792ABC1001EB2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Defiance/Maths Games-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Math Defiance/Maths Games-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Math Defiance/google-analytics\"",
+					"\"$(SRCROOT)/Math Defiance/google-admob\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "Maths Games";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "156C487E-4F9B-4BD6-9C7D-17CF2034E987";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBF8E12B1792ABC1001EB2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Defiance/Maths Games-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Math Defiance/Maths Games-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Math Defiance/google-analytics\"",
+					"\"$(SRCROOT)/Math Defiance/google-admob\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "Maths Games";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "156C487E-4F9B-4BD6-9C7D-17CF2034E987";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF8E1011792ABC1001EB2F3 /* Build configuration list for PBXProject "Maths Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF8E1271792ABC1001EB2F3 /* Debug */,
+				FBF8E1281792ABC1001EB2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF8E1291792ABC1001EB2F3 /* Build configuration list for PBXNativeTarget "Maths Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF8E12A1792ABC1001EB2F3 /* Debug */,
+				FBF8E12B1792ABC1001EB2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF8E0FE1792ABC1001EB2F3 /* Project object */;
+}

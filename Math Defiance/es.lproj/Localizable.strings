@@ -1,0 +1,46 @@
+"si" = "Sí";
+"no" = "No";
+
+"unjugador" = "1 Jugador";
+"dosjugadores" = "2 Jugadores";
+"puntuaciones" = "Puntuaciones";
+"volver" = "Volver";
+"borrar" = "Borrar";
+
+"sienteentreinta" = "7 en 30";
+"elminuto" = "El minuto";
+"lasveinte" = "Las 20";
+
+"conseguido" = "¡Lo conseguiste!";
+"hastardadoensegundos" = "Has tardado %d segundos";
+"hetardadoensegundos" = "He tardado %d segundos en terminar el juego \"%@\"";
+"hastardadoenminutos" = "Has tardado %02d:%02d";
+"hetardadoenminutos" = "He tardado %02d:%02d en terminar el juego \"%@\"";
+"hashecho" = "Has resuelto %d operaciones";
+"hehecho" = "He resuelto %d operaciones en el juego \"%@\"";
+"nuevorecord" = "¡Nuevo record!";
+"otravez" = "Otra vez";
+"menu" = "Ir al menú";
+"enviartweet" = "Enviar tweet";
+"terminarjuego" = "Terminar juego";
+"terminarjuegodesc" = "¿Seguro que quieres terminar la partida?";
+
+"mejortiemposegundos" = "Tu mejor tiempo es %d segundos";
+"mejortiempominutos" = "Tu mejor tiempo es de %@";
+"maxoperaciones" = "Has resuelto %d operaciones";
+"numveces" = " (%d veces)";
+"sinpartidasterminadas" = "Todavía no has ganado ninguna partida";
+
+"segundos" = "%d segundos";
+"minutos" = "%@ minutos";
+"unavez" = "1 vez";
+"masdeunavez" = "%d veces";
+"unaoperacion" = "1 operación";
+"masdeunaoperacion" = "%d operaciones";
+
+"juegoterminado" = "Juego terminado";
+"volveraintentar" = "¡Vaya! Has tardado demasiado en terminar el juego, pero seguro que lo puedes conseguir, ¿quieres volver a intentarlo?";
+"volveraintentar2" = "¡Vaya! No has podido resolver todas las operaciones, pero seguro que lo puedes conseguir, ¿quieres volver a intentarlo?";
+
+"error" = "Error";
+"errorenviartweet" = "No puedes enviar un tweet ahora, asegurate de que tienes acceso a Internet y que, por lo menos, tienes una cuenta de Twitter configurada.";

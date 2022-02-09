@@ -1,0 +1,46 @@
+"si" = "Yes";
+"no" = "No";
+
+"unjugador" = "1 Player";
+"dosjugadores" = "2 Players";
+"puntuaciones" = "Score";
+"volver" = "Back";
+"borrar" = "Delete";
+
+"sienteentreinta" = "7 in 30";
+"elminuto" = "The minute";
+"lasveinte" = "The 20s";
+
+"conseguido" = "You win!";
+"hastardadoensegundos" = "You took %d seconds";
+"hetardadoensegundos" = "I took %d seconds to complete the game \"%@\"";
+"hastardadoenminutos" = "You took %02d:%02d";
+"hetardadoenminutos" = "I took %02d:%02d seconds to complete the game \"%@\"";
+"hashecho" = "You have done %d operations";
+"hehecho" = "I have done %d operations in the game \"%@\"";
+"nuevorecord" = "New record!";
+"otravez" = "Again";
+"menu" = "Back to menu";
+"enviartweet" = "Send tweet";
+"terminarjuego" = "End Game";
+"terminarjuegodesc" = "Are you sure you want to end the game?";
+
+"mejortiemposegundos" = "Your best time is %d seconds";
+"mejortiempominutos" = "Your best time is %@";
+"maxoperaciones" = "You've solved %d operations";
+"numveces" = " (%d times)";
+"sinpartidasterminadas" = "You have not won any game";
+
+"segundos" = "%d seconds";
+"minutos" = "%@ minutes";
+"unavez" = "1 time";
+"masdeunavez" = "%d times";
+"unaoperacion" = "1 operation";
+"masdeunaoperacion" = "%d operations";
+
+"juegoterminado" = "Game Over";
+"volveraintentar" = "Oooh! You took too long to finish the game, but surely you can, try again?";
+"volveraintentar2" = "Oooh! You couldn't to do all operations, but surely you can, try again?";
+
+"error" = "Error";
+"errorenviartweet" = "You can't send a tweet right now, make sure your device has an internet connection and you have at least one Twitter account setup.";
